@@ -1,2 +1,0 @@
-# FinFlow
-Zorvyn_FinFlowApp
