@@ -1,0 +1,38 @@
+export const transactions = [
+  { id: "t1",  date: "2026-04-01", amount: 2500,  category: "Salary",     type: "income"  },
+  { id: "t2",  date: "2026-04-02", amount: 500,   category: "Food",       type: "expense" },
+  { id: "t3",  date: "2026-03-28", amount: 1200,  category: "Freelance",  type: "income"  },
+  { id: "t4",  date: "2026-03-25", amount: 800,   category: "Shopping",   type: "expense" },
+  { id: "t5",  date: "2026-03-20", amount: 3500,  category: "Salary",     type: "income"  },
+  { id: "t6",  date: "2026-03-18", amount: 1200,  category: "Rent",       type: "expense" },
+  { id: "t7",  date: "2026-03-15", amount: 450,   category: "Food",       type: "expense" },
+  { id: "t8",  date: "2026-03-10", amount: 300,   category: "Transport",  type: "expense" },
+  { id: "t9",  date: "2026-03-05", amount: 600,   category: "Freelance",  type: "income"  },
+  { id: "t10", date: "2026-03-03", amount: 180,   category: "Utilities",  type: "expense" },
+  { id: "t11", date: "2026-02-28", amount: 3500,  category: "Salary",     type: "income"  },
+  { id: "t12", date: "2026-02-25", amount: 1200,  category: "Rent",       type: "expense" },
+  { id: "t13", date: "2026-02-20", amount: 350,   category: "Food",       type: "expense" },
+  { id: "t14", date: "2026-02-15", amount: 900,   category: "Shopping",   type: "expense" },
+  { id: "t15", date: "2026-02-10", amount: 250,   category: "Transport",  type: "expense" },
+  { id: "t16", date: "2026-02-05", amount: 800,   category: "Freelance",  type: "income"  },
+  { id: "t17", date: "2026-02-01", amount: 160,   category: "Utilities",  type: "expense" },
+  { id: "t18", date: "2026-01-30", amount: 3500,  category: "Salary",     type: "income"  },
+  { id: "t19", date: "2026-01-25", amount: 1200,  category: "Rent",       type: "expense" },
+  { id: "t20", date: "2026-01-20", amount: 420,   category: "Food",       type: "expense" },
+  { id: "t21", date: "2026-01-18", amount: 650,   category: "Shopping",   type: "expense" },
+  { id: "t22", date: "2026-01-12", amount: 200,   category: "Transport",  type: "expense" },
+  { id: "t23", date: "2026-01-08", amount: 500,   category: "Freelance",  type: "income"  },
+  { id: "t24", date: "2026-01-03", amount: 175,   category: "Utilities",  type: "expense" },
+];
+
+export const CATEGORIES = ["Salary", "Freelance", "Food", "Shopping", "Rent", "Transport", "Utilities", "Other"];
+export const CATEGORY_COLORS = {
+  Salary:    "#10d98a",
+  Freelance: "#3b82f6",
+  Food:      "#f59e0b",
+  Shopping:  "#a855f7",
+  Rent:      "#f43f5e",
+  Transport: "#06b6d4",
+  Utilities: "#fb923c",
+  Other:     "#6b7280",
+};
